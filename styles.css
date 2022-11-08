@@ -28,7 +28,7 @@ header div {
     align-items: center;
 }
 
-header div svg{
+#ralerv-logo{
     width: 50%;
     height: 50%;
     object-fit: cover;
