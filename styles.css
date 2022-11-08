@@ -6,15 +6,22 @@
     --blue-sapphire: #00607A;
 }
 
-body {
+* {
+    box-sizing: border-box;
+}
+
+body, p, ul {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: 1fr auto;
     background-color: var(--dark-jungle-green);
     color: var(--blue-sapphire);
+}
+
+#logo_name {
+    display: flex;
 }
