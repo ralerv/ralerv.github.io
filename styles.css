@@ -5,3 +5,16 @@
     --eagle-green: #005066;
     --blue-sapphire: #00607A;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    background-color: var(--dark-jungle-green);
+    color: var(--blue-sapphire);
+}
