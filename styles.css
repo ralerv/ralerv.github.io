@@ -22,6 +22,14 @@ header {
     color: var(--blue-sapphire);
 }
 
-#logo_name {
+header div {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div svg{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
 }
