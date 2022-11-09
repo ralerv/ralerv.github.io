@@ -32,7 +32,7 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     background-color: var(--dark-jungle-green);
-    color: var(--blue-sapphire);
+    color: white;
     width: 100%;
     height: 10rem;
     position: sticky;
@@ -41,9 +41,10 @@ header {
 
 .logo_name {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    gap: 5rem;
     height: 100%;
+    max-width: 30rem;
 }
 
 .logo_name img {
@@ -69,6 +70,6 @@ header {
 
 .nav-header ul a {
     text-decoration: none;
-    color: var(--blue-sapphire);
+    color: white;
 }
 
