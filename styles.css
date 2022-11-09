@@ -47,7 +47,15 @@ header {
     object-fit: cover;
 }
 
+.nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-header ul {
     list-style: none;
+    display: flex;
+    gap: 0.8rem;
 }
 
