@@ -20,11 +20,6 @@ body {
     flex-direction: column;
 }
 
-p, ul {
-    margin: 0;
-    padding: 0;
-}
-
 header {
     display: grid;
     grid-template-columns: auto auto;
@@ -48,7 +43,7 @@ header {
     object-fit: cover;
 }
 
-.nav_header ul {
+.nav-header ul {
     list-style: none;
 }
 
