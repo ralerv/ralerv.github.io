@@ -34,7 +34,7 @@ header {
     height: 100%;
 }
 
-#logo_name img {
+.logo_name img {
     width: 50%;
     height: 50%;
     object-fit: cover;
