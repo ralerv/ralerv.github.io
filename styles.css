@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     height: 100vh;
     width: 100vw;               /* SUPER IMPORTANTE ESPECFICAR HEIGHT Y WIDTH */
@@ -27,7 +31,7 @@ header {
     background-color: var(--dark-jungle-green);
     color: var(--blue-sapphire);
     width: 100%;
-    height: 100px;
+    height: 10rem;
     position: sticky;
 }
 
