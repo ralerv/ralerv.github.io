@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
 body, p, ul {
     margin: 0;
     padding: 0;
@@ -33,8 +39,3 @@ header {
     align-items: center;
 }
 
-.ralerv-logo{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-}
