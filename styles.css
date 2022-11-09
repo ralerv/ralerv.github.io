@@ -13,6 +13,8 @@
 body, p, ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -20,6 +22,9 @@ header {
     grid-template-columns: 1fr auto;
     background-color: var(--dark-jungle-green);
     color: var(--blue-sapphire);
+    width: 100%;
+    height: 300px;
+    position: sticky;
 }
 
 header div {
