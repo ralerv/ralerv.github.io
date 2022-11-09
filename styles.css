@@ -8,18 +8,27 @@
 
 * {
     box-sizing: border-box;
-}
-
-body, p, ul {
     margin: 0;
     padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;               /* SUPER IMPORTANTE ESPECFICAR HEIGHT Y WIDTH */
+    font-family: "Open Sans";
     display: flex;
     flex-direction: column;
 }
 
+p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: auto auto;
+    place-content: center;
     background-color: var(--dark-jungle-green);
     color: var(--blue-sapphire);
     width: 100%;
@@ -37,5 +46,9 @@ header {
 .logo_name img {
     height: 50%;
     object-fit: cover;
+}
+
+.nav_header ul {
+    list-style: none;
 }
 
