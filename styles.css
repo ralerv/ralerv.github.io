@@ -7,6 +7,7 @@
     --eagle-green: #005066;
     --blue-sapphire: #00607A;
     --xlg: 3.2rem;
+    --medium: 2rem;
 }
 
 * {
@@ -37,7 +38,7 @@ header {
     width: 100%;
     height: 10rem;
     position: sticky;
-    font-size: var(--xlg);
+    font-size: var(--medium);
 }
 
 .logo_name {
@@ -47,6 +48,7 @@ header {
     gap: 5rem;
     height: 100%;
     max-width: 30rem;
+    font-size: var(--xlg);
 }
 
 .logo_name img {
