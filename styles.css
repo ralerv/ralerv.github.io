@@ -31,7 +31,6 @@ body {
 header {
     display: grid;
     grid-template-columns: auto auto;
-    place-content: center;
     background-color: var(--dark-jungle-green);
     color: var(--blue-sapphire);
     width: 100%;
@@ -59,8 +58,17 @@ header {
 }
 
 .nav-header ul {
+    height: 100%;
+    width: 100%;
     list-style: none;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     gap: 0.8rem;
+}
+
+.nav-header ul a {
+    text-decoration: none;
+    color: var(--blue-sapphire);
 }
 
