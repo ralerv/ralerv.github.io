@@ -54,7 +54,10 @@ header {
     align-items: center;
 }
 
-.nav-header ul li:hover {
+.nav-header ul li{
     transition: background-color 0.2s;
+}
+
+.nav-header ul li:hover {
     background-color: var(--blue-sapphire);
 }
