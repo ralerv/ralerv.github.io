@@ -72,8 +72,14 @@ header {
     gap: 0.8rem;
 }
 
-.nav-header ul a {
+.nav-header ul li a {
     text-decoration: none;
     color: white;
+}
+
+.nav-header ul li
+,.nav-header ul li a {
+    height: 100%;
+    width: 100%;
 }
 
