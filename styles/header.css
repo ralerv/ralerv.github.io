@@ -1,7 +1,8 @@
 header {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     background-color: var(--dark-jungle-green);
+    align-items: center;
     color: white;
     width: 100%;
     height: 10rem;
@@ -10,13 +11,11 @@ header {
 }
 
 .logo_name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
     height: 100%;
     max-width: 30rem;
-    font-size: var(--xlg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_name img {
@@ -24,7 +23,13 @@ header {
     object-fit: cover;
 }
 
+.name {
+    font-size: var(--xlg);
+}
+
 .nav-header {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
