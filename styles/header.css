@@ -1,8 +1,9 @@
 header {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--dark-jungle-green);
     align-items: center;
+    justify-items: center;
     color: white;
     width: 100%;
     height: 10rem;
@@ -36,11 +37,11 @@ header {
 }
 
 .nav-header span {
-    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 .nav-header ul {
@@ -52,6 +53,10 @@ header {
     justify-content: center;
     align-items: center;
     transform: translateY(-100%);
+}
+
+.nav-list--show {
+    transform: translate(0);
 }
 
 .nav-header ul li a {
