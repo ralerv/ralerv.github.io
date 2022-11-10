@@ -19,7 +19,7 @@ header {
     align-items: center;
 }
 
-.logo_name img, .menu-icon img {
+.logo_name img, .menu-icon--span img {
     height: 50%;
     object-fit: cover;
 }
@@ -63,10 +63,6 @@ header {
 
 .nav-list--show {
     transform: translateY(0%);
-}
-
-.menu-icon-img {
-    transition: transform 0.2s;
 }
 
 .menu-icon-img--show {

@@ -5,5 +5,5 @@ menuIcon.addEventListener("click", showmenu)
 
 function showmenu() {
     menuList.classList.toggle("nav-list--show")
-    menuIcon.classList.toggle("menu-icon--show")
+    menuIcon.classList.toggle("menu-icon-img--show")
 }
