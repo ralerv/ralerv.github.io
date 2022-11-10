@@ -56,7 +56,7 @@ header {
 }
 
 .nav-list--show {
-    transform: translate(0);
+    transform: translateY(0%);
 }
 
 .nav-header ul li a {
