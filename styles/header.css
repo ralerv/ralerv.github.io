@@ -18,7 +18,7 @@ header {
     align-items: center;
 }
 
-.logo_name img {
+.logo_name img, .menu-icon img {
     height: 50%;
     object-fit: cover;
 }
@@ -35,13 +35,20 @@ header {
     align-items: center;
 }
 
+.nav-header span {
+    width: 100%;
+    height: 100%;
+}
+
 .nav-header ul {
     height: 100%;
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    transform: translateY(-100%);
 }
 
 .nav-header ul li a {
