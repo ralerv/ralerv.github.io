@@ -1,0 +1,12 @@
+.main-social-tree {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-list {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+
