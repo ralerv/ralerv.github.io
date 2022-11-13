@@ -15,4 +15,5 @@ function showmenu() {
 
 function hidemenu() {
     menuList.classList.toggle("nav-list--show")
+    menuIcon.classList.toggle("menu-icon-img--show")
 }
