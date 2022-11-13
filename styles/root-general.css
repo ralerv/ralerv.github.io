@@ -21,7 +21,6 @@ html {
 }
 
 body {
-    height: 100vh;
     width: 100vw; /* SUPER IMPORTANTE ESPECFICAR HEIGHT Y WIDTH */
     font-family: "Open Sans";
     display: flex;
