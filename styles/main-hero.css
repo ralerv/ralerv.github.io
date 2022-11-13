@@ -1,0 +1,14 @@
+.main-hero {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-hero-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
