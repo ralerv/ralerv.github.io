@@ -15,3 +15,9 @@
     font-size: 1.6rem;
     padding: 0 2rem;
 }
+
+.hero-description--container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.4rem;
+}
