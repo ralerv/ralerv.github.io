@@ -1,19 +1,27 @@
 .main-social-tree {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.4rem;
+}
+
+.main-social-tree p:first-child {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding: 1rem 0;
 }
 
 .social-list {
     display: grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     place-items: center;
     row-gap: 2.4rem;
 }
 
 .social-list li{
-    width: 24vw;
-    height: 24vw;
+    width: 5rem;
+    height: 5rem;
 }
 
 .social-list--link{
@@ -29,8 +37,11 @@
 }
 
 .social-list--link img {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
+.social-list--link-name {
+    display: none;
+}
