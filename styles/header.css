@@ -1,3 +1,7 @@
+#nav-list li:last-child { /* QUITAR CUANDO AGREGAMOS EXTRAS */
+    display: none;
+} 
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
