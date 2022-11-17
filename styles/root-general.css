@@ -6,6 +6,8 @@
     --blue-sapphire: #00607A;
     --xlg: 3.2rem;
     --medium: 2rem;
+    --short-transition-time: 0.2s;
+    --normal-transition-time: 0.5s;
 }
 
 * {

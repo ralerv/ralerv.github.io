@@ -1,0 +1,12 @@
+.nav-body-hider {
+    transition: background-color var(--normal-transition-time);
+}
+
+.nav-body-hider--show {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+}

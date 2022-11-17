@@ -13,6 +13,7 @@ header {
     height: 10rem;
     position: sticky;
     font-size: var(--medium);
+    z-index: 1;
 }
 
 .logo_name {
@@ -46,7 +47,7 @@ header {
     justify-content: center;
     align-items: center;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-list {
@@ -62,7 +63,7 @@ header {
     justify-content: center;
     align-items: center;
     transform: translateY(-100%);
-    transition: transform 0.5s;
+    transition: transform var(--normal-transition-time);
 }
 
 .nav-list--show {
@@ -88,7 +89,7 @@ header {
 }
 
 .nav-header ul li{
-    transition: background-color 0.2s;
+    transition: var(--short-transition-time);
 }
 
 .nav-header ul li:hover {
