@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gunmetal);
+    padding: 0 0.4rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+footer p:first-child{
+    width: 50vw;
+}
