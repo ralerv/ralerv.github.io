@@ -27,6 +27,10 @@ body {
     flex-direction: column;
 }
 
+header, main, footer {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
