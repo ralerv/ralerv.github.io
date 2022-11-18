@@ -7,6 +7,5 @@
     position: fixed;
     height: 100%;
     width: 100%;
-    opacity: 60%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.64);
 }
