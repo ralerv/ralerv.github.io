@@ -5,7 +5,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--gunmetal);
-    padding: 0 0.4rem;
+    padding: 0 1rem;
     font-size: 1.6rem;
     color: white;
 }
