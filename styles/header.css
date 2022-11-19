@@ -79,7 +79,7 @@ header {            /* general distribution */
     filter: invert(75%) sepia(47%) saturate(2805%) hue-rotate(168deg) brightness(87%) contrast(102%);
 }
 
-.nav-header ul li a {   /* deleting base styles */
+.nav-header ul li a {   /* a base styles */
     text-decoration: none;
     color: white;
 }
@@ -100,4 +100,33 @@ header {            /* general distribution */
 
 .nav-header ul li:hover {           /* hover for list options */
     background-color: var(--blue-sapphire);
+}
+
+@media only screen and (min-width: 800px) {
+    header {            /* general distribution */
+        display: grid;
+        grid-template-columns: 1fr 1fr 3fr;
+        justify-items: unset;
+        top: 0;
+    }
+
+    .nav-header span {      /* img container styles */
+        display: none;
+    }
+
+    .nav-list {         /* option list styles */
+        position: static;
+        height: 100%;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(0%);
+    }
+
+    .nav-header ul li a {   /* a base styles */
+        font-weight: lighter;
+    }
 }
