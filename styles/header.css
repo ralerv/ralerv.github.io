@@ -2,7 +2,7 @@
     display: none;
 } 
 
-header {
+header {            /* general distribution */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--dark-jungle-green);
@@ -16,7 +16,7 @@ header {
     z-index: 1;
 }
 
-.logo_name {
+.logo_name {            /* Logo size */
     height: 100%;
     max-width: 30rem;
     display: flex;
@@ -24,16 +24,16 @@ header {
     align-items: center;
 }
 
-.logo_name img, .menu-icon--span img {
+.logo_name img, .menu-icon--span img {          /* general imgs size */
     height: 50%;
     object-fit: cover;
 }
 
-#menu-icon {
+#menu-icon {                /* menu cursor efect */
     cursor: pointer;
 }
 
-.name {
+.name {             /* size of name on header */
     font-size: var(--xlg);
 }
 
@@ -45,7 +45,7 @@ header {
     align-items: center;
 }
 
-.nav-header span {
+.nav-header span {      /* img container styles */
     height: 100%;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@ header {
     z-index: 2;
 }
 
-.nav-list {
+.nav-list {         /* option list styles */
     height: 75vh;
     width: 100vw;
     position: absolute;
@@ -66,20 +66,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(-100%);
+    transform: translateY(-100%);           /* hide list */
     transition: transform var(--normal-transition-time);
 }
 
-.nav-list--show {
+.nav-list--show {               /* show list */
     transform: translateY(0%);
     box-shadow: 0px 15px 10px -15px rgb(0, 0, 0);
 }
 
-.menu-icon-img--show {
+.menu-icon-img--show {      /* change img colors when nav list is show up */
     filter: invert(75%) sepia(47%) saturate(2805%) hue-rotate(168deg) brightness(87%) contrast(102%);
 }
 
-.nav-header ul li a {
+.nav-header ul li a {   /* deleting base styles */
     text-decoration: none;
     color: white;
 }
@@ -98,6 +98,6 @@ header {
     /* border-bottom: 0.4rem solid var(--blue-sapphire); */
 }
 
-.nav-header ul li:hover {
+.nav-header ul li:hover {           /* hover for list options */
     background-color: var(--blue-sapphire);
 }
