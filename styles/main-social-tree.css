@@ -1,12 +1,12 @@
-.main-social-tree {
+.main-social-tree {     /* General distribution */
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 2.4rem;
 }
 
-.main-social-tree p:first-child {
-    display: flex;
+.main-social-tree p:first-child {       /* Styles of title of social list */
+    display: flex; 
     align-content: center;
     justify-content: center;
     padding: 1rem 0;
@@ -24,11 +24,9 @@
     row-gap: 2.4rem;
 }
 
-.social-list li{
+.social-list li{        /* Size of Every LI */
     width: 80%;
     height: 5rem;
-    padding: 0.4rem;
-    border: 0.4rem solid var(--blue-sapphire);
 }
 
 .social-list--link{
@@ -41,9 +39,11 @@
     font-size: 1.6rem;
     gap: 1.6rem;
     font-weight: bold;
+    padding: 0.4rem;
+    border: 0.4rem solid var(--blue-sapphire);
 }
 
-.img-span {
+.img-span {         /* Size of imgs of social list */
     width: 5rem;
     height: 100%;
     display: flex;
