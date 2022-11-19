@@ -58,7 +58,7 @@
     object-fit: contain;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .social-list {
         width: 92%;
         display: grid;
@@ -68,5 +68,9 @@
 
     .main-social-tree {     /* General distribution */
         align-items: center;
+    }
+
+    .social-list--link{
+        gap: 1.2rem;
     }
 }
