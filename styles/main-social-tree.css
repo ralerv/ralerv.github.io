@@ -2,13 +2,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
 }
 
 .main-social-tree p:first-child {       /* Styles of title of social list */
     display: flex; 
     align-content: center;
     justify-content: center;
+    width: 100%;
     padding: 1rem 0;
     margin-bottom: 1.2rem;
     background-color: var(--blue-sapphire);
@@ -55,4 +56,17 @@
     max-width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+@media only screen and (min-width: 800px) {
+    .social-list {
+        width: 92%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        place-items: center;
+    }
+
+    .main-social-tree {     /* General distribution */
+        align-items: center;
+    }
 }
