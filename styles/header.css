@@ -130,4 +130,9 @@ header {            /* general distribution */
     .nav-header ul li a {   /* a base styles */
         font-weight: lighter;
     }
+
+    .nav-list--show {               /* show list */
+        transform: translateY(0%);
+        box-shadow: none;
+    }
 }
