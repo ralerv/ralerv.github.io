@@ -19,5 +19,5 @@
 .hero-description--container {
     display: flex;
     flex-direction: column;
-    row-gap: 2.4rem;
+    gap: 2.4rem;
 }
