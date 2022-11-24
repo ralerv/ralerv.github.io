@@ -5,7 +5,7 @@
     margin-bottom: 3.2rem;
 }
 
-.main-social-tree p:first-child {       /* Styles of title of social list */
+.social-tree-title {        /* Styles of CONTAINER of title of social list */
     display: flex; 
     align-content: center;
     justify-content: center;
@@ -14,6 +14,9 @@
     padding: 0.8rem;
     margin-bottom: 1.2rem;
     background-color: var(--blue-sapphire);
+}
+
+.social-tree-title p{       /* Styles of title of social list */
     font-size: 1.6rem;
     text-align: center;
     color: white;
