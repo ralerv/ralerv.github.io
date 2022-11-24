@@ -10,10 +10,12 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    padding: 1rem 0;
+    height: 100%;
+    padding: 0.8rem;
     margin-bottom: 1.2rem;
     background-color: var(--blue-sapphire);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    text-align: center;
     color: white;
 }
 
