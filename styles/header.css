@@ -98,10 +98,12 @@ header {            /* general distribution */
     /* border-bottom: 0.4rem solid var(--blue-sapphire); */
 }
 
-.nav-header ul li:hover {           /* hover for list options */
-    background-color: var(--blue-sapphire);
+@media (any-hover: hover) {
+    .nav-header ul li:hover {           /* hover for list options */
+        background-color: var(--blue-sapphire);
+    }
 }
-
+  
 @media only screen and (min-width: 768px) {
     header {            /* general distribution */
         display: grid;
