@@ -31,7 +31,7 @@
 }
 
 .social-list li{        /* Size of Every LI */
-    width: 80%;
+    width: 72%;
     height: 5rem;
 }
 
@@ -62,19 +62,58 @@
     object-fit: contain;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {  /* Tablet */
     .social-list {
-        width: 92%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        place-items: center;
+        width: 96%;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-content: center;
+        gap: 1.2rem;
     }
 
     .main-social-tree {     /* General distribution */
         align-items: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .social-list li{        /* Size of Every LI */
+        width: calc(100% / 8);
+        height: 10rem;
     }
 
     .social-list--link{
         gap: 1.2rem;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    .img-span {         /* Size of imgs of social list */
+        max-height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {  /* Desktop - laptop */
+    .main-social-tree {
+        width: 100%;
+        height: 20rem;
+        max-height: 24vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+    }
+
+    .social-tree-title {
+        margin-bottom: 0;
+        width: 16%;
+    }
+
+    .social-tree-title p{
+        display: flex;
+        align-items: center;
+    }
+    
 }
