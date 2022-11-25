@@ -64,12 +64,29 @@
     object-fit: contain;
 }
 
+/* #instagram--link:hover > span > img{
+    transition: opacity transform filter;
+    transition-duration: var(--short-transition-time); 
+} */   /* Change img while transition */
+
 @media (any-hover: hover) {
     .social-list--link:hover {           /* hover for list options */
         background-color: var(--blue-sapphire);
         transform: scale(1.1);
         color: white;
     }
+
+     #instagram--link:hover > span {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+     #instagram--link:hover > span > img{
+        /* transform: scale(0.7);
+        filter: brightness(0) invert(1); */
+        opacity: 0;
+    } 
 }
 
 @media only screen and (min-width: 768px) {  /* Tablet */
