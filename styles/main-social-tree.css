@@ -47,6 +47,8 @@
     font-weight: bold;
     padding: 0.4rem;
     border: 0.4rem solid var(--blue-sapphire);
+    transition: transform color background-color;
+    transition-duration: var(--short-transition-time);
 }
 
 .img-span {         /* Size of imgs of social list */
@@ -60,6 +62,14 @@
     max-width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+@media (any-hover: hover) {
+    .social-list--link:hover {           /* hover for list options */
+        background-color: var(--blue-sapphire);
+        transform: scale(1.1);
+        color: white;
+    }
 }
 
 @media only screen and (min-width: 768px) {  /* Tablet */
